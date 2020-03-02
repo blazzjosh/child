@@ -42,20 +42,18 @@ export default {
 
 			copy({
 				targets: [{
+
 						src: "node_modules/pdfjs-dist/build/pdf.worker.min.js",
-						dest: "public/pdfjs"
+						dest: "/static"
 					},
 					{
-						src: "node_modules/pdfjs-dist/cmaps/**/*",
-						dest: "public/pdfjs/cmaps"
+						src: "/__sapper__/dev",
+						dest: "/static"
 					}
 				]
 			}),
 
 			builtins(),
-
-
-
 			legacy && babel({
 				extensions: ['.js', '.mjs', '.html', '.svelte'],
 				runtimeHelpers: true,

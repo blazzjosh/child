@@ -1,5 +1,5 @@
 <script>
-  import Component from "../components/Component.svelte";
+  import PDFJS from "@fabiohvp/svelte-pdfjs";
 </script>
 
-<Component src="/public/pdfjs/test.pdf" />
+<PDFJS src="/sample.pdf" />

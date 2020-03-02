@@ -727,10 +727,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@fabiohvp/svelte-pdfjs@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@fabiohvp/svelte-pdfjs/-/svelte-pdfjs-0.0.6.tgz#4480296b9d463ace1d14c50749bc7fcb7fa67dde"
-  integrity sha512-BWNRZltm2frACdno/vSy7ngP68GXNcoc/UeeNQsStAknbM+WG/cdvhP9rqoGS6H1Uckwh7q3XIpSgGy4rpUKvA==
+"@fabiohvp/svelte-pdfjs@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@fabiohvp/svelte-pdfjs/-/svelte-pdfjs-0.0.9.tgz#1e985b5ba2303c75488cf279365f152721d7c64f"
+  integrity sha512-eLRE97xHoDiKAN9bKWhZ4uNxZZQXXyMh80NJNDPESbU1/QzkqC5LxvGGi/rdifIF9T4cfqYyCCZroo4SyA+p1A==
   dependencies:
     pdfjs-dist "^2.3.200"
 

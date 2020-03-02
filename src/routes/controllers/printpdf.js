@@ -13,8 +13,9 @@ export async function post(req, res) {
 
             const doc = new PDFDocument()
             doc.pipe(fs.createWriteStream('sample.pdf'))
-            // doc.text(name[i], 100, 50)
-            doc.list(name)
+
+            doc
+                .text(name, 100, 50)
             doc.end()
 
         } catch (error) {
