@@ -1,0 +1,53 @@
+{
+  "name": "reji",
+  "description": "TODO",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build --legacy",
+    "export": "sapper export --legacy",
+    "start": "node __sapper__/build",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "test": "run-p --race dev cy:run"
+  },
+  "dependencies": {
+    "@fabiohvp/svelte-pdfjs": "^0.0.6",
+    "@sveltejs/svelte-virtual-list": "^3.0.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "jquery": "^3.4.1",
+    "jspdf": "^1.5.3",
+    "mysql2": "^2.1.0",
+    "pdfkit": "^0.11.0",
+    "polka": "next",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "selectize": "^0.12.6",
+    "sequelize": "^5.21.4",
+    "sequelize-cli": "^5.5.1",
+    "sirv": "^0.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/runtime": "^7.0.0",
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@rollup/plugin-replace": "^2.2.0",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^1.20.0",
+    "rollup-plugin-babel": "^4.0.2",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-svelte": "^5.0.1",
+    "rollup-plugin-terser": "^4.0.4",
+    "sapper": "^0.27.0",
+    "svelte": "^3.0.0",
+    "svelte-select": "^3.3.7"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
