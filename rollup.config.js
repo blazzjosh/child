@@ -44,11 +44,11 @@ export default {
 				targets: [{
 
 						src: "node_modules/pdfjs-dist/build/pdf.worker.min.js",
-						dest: "/static"
+						dest: "static/pdfjs"
 					},
 					{
-						src: "/__sapper__/dev",
-						dest: "/static"
+						src: "node_modules/pdfjs-dist/cmaps/**/*",
+						dest: "static/pdfjs/cmaps"
 					}
 				]
 			}),
